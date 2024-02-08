@@ -5,8 +5,8 @@ int fn(int x,int y){
         int temp=x;
         x=y%x;
         y=temp;
-            
-        }return y;
+    }
+    return y;
 }
 int main() {
     int t;
