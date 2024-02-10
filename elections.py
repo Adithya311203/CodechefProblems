@@ -1,0 +1,11 @@
+t=int(input())
+for _ in range(t):
+    x,y,z=map(int,input().split())
+    if(x>50):
+        print("A")
+    elif(y>50):
+        print("B")
+    elif(z>50):
+        print("C")
+    else:
+        print("NOTA")
