@@ -1,4 +1,5 @@
 t=int(input())
+
 for _ in range(t):
     c=0
     n=int(input())
