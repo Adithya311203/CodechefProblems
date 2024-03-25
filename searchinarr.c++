@@ -18,6 +18,7 @@ int main() {
         else if(arr[mid]<x)start=mid+1;
         else end=mid-1;
     }
+    
     if(start>end)cout<<"NO"<<endl;
 	return 0;
 }
